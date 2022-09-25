@@ -223,7 +223,7 @@ selected_block = st.sidebar.selectbox(
 st.sidebar.write(selected_block)
 
 if st.button("Validate Chain"):
-    st.write(pychain.is_valid())
+    st.write("Blockchain is Valid: %s " % pychain.is_valid())
 
 ################################################################################
 # Step 4:
